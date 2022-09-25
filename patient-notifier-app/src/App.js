@@ -61,7 +61,7 @@ class App extends React.Component {
         </center>
       )
     }
-    //if not login screen, render the home screen instead, and pass the current username and password values to attempt login
+    //if not login screen, render the home screen instead and pass the current username and password values to attempt login
     else {
       return (
         <center>
