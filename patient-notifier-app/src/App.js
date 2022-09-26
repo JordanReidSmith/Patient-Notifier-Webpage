@@ -98,7 +98,7 @@ class HomeScreen extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  //when a button is pressed, it returns a value for which menu to display, set the new display to that of the passed value, and if the notifications menu is opened, then set the value of unread notification to 0
+  //when a button is pressed, it returns a value for which menu to display, set the new display to that of the passed value and if the notifications menu is opened, then set the value of unread notification to 0
   handleClick (selection) {
     if (selection == 'notis'){
       this.setState({unreadNotifications: 0});
