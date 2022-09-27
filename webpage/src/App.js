@@ -128,6 +128,7 @@ class HomeScreen extends React.Component {
     //.then(response => this.setState({ curDisplay: 'home', notifications: response.notifications, details: response.patientData, unreadNotifications: response.newNotifications, dataIsLoaded: true }));
     .then(response => this.setState({ curDisplay: 'home', notifications: response.notifications, details: response.patientData, steps: response.steps, weights: response.weights, unreadNotifications: response.newNotifications, dataIsLoaded: true }));
     }
+    //if login fails, return to login screen, alert user
     catch {
       this.props.resetScreen()
       alert("Failed to connect to server")
