@@ -135,7 +135,7 @@ class HomeScreen extends React.Component {
     }
   }
 
-  //function used to update the values for display in the tooltip 
+  //function used to update the values for display in the tooltip  
   updateTooltip (tooltipValues) {
     this.setState({tooltip: tooltipValues});
   }
